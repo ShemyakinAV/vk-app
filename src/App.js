@@ -14,7 +14,7 @@ class App extends Component {
 		cars: [
 			{id: 1, name: 'Ford', year: 2018},
 			{id: 2, name: 'Audi', year: 2016},
-			{id: 3, name: 'Mazda', year: 2010}
+			{id: 3, name: 'Ferrari', year: 2010}
 		],
 		pageTitle: 'React components',
 		showCars: true

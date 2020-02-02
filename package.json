@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://ilyapishchulin.github.io/vk-apps-currency/",
+  "homepage": "https://shemyakinav.github.io/vk-app/",
   "scripts": {
     "start": "cross-env PORT=10888 react-scripts start",
     "build": "react-scripts build",

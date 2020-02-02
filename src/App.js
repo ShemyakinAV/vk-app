@@ -12,7 +12,7 @@ class App extends Component {
 
 	state = {
 		cars: [
-			{id: 1, name: 'Ford', year: 2018},
+			{id: 1, name: 'VAZ', year: 2018},
 			{id: 2, name: 'Audi', year: 2016},
 			{id: 3, name: 'Ferrari', year: 2010}
 		],

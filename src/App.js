@@ -4,7 +4,7 @@ import View from '@vkontakte/vkui/dist/components/View/View';
 import ScreenSpinner from '@vkontakte/vkui/dist/components/ScreenSpinner/ScreenSpinner';
 import '@vkontakte/vkui/dist/vkui.css';
 import Car from './Car/Car'
-
+import Counter from "./Counter/Counter";
 import Home from './panels/Home';
 import Persik from './panels/Persik';
 
@@ -12,7 +12,7 @@ class App extends Component {
 
 	state = {
 		cars: [
-			{id: 1, name: 'VAZ', year: 2018},
+			{id: 1, name: 'VAZ', year: '2018'},
 			{id: 2, name: 'Audi', year: 2016},
 			{id: 3, name: 'Mazda', year: 2010}
 		],
@@ -54,6 +54,7 @@ class App extends Component {
 		return (
 			<div style={divStyle}>
 				<h1>{this.state.pageTitle}</h1>
+<Counter />
 
 				{/*<button*/}
 				{/*    onClick={this.toggleCarsHandler.bind(this, 'Changed!')}>Toggle Cars*/}

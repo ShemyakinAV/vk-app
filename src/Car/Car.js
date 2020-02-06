@@ -1,6 +1,7 @@
 import React from 'react';
 import Radium from "radium";
 import App from "../App";
+import PropTypes from 'prop-types'
 import "./car.css"
 
 const Car = (props) => {
@@ -43,5 +44,10 @@ const Car = (props) => {
         </div>
     )
 }
-
+Car.propTypes = {
+    name: PropTypes.string,
+    year: PropTypes.number,
+    onChangeName: PropTypes.func,
+    onDelete: PropTypes.func
+}
 export default Radium(Car)
